@@ -12,7 +12,6 @@
       padding-bottom: 4.5rem;
     }
   }
-<<<<<<< HEAD
 
   &--no-b-padding-until-large {
     padding-bottom: 0;
@@ -21,8 +20,6 @@
       padding-bottom: 4.5rem;
     }
   }
-=======
->>>>>>> testimonials
 
   &--blue {
     background-color: $mainBlue;
@@ -32,11 +29,7 @@
   &--testimonials {
     background-color: #e0e6ef;
 
-<<<<<<< HEAD
     @mixin atLarge {
-=======
-    @mixin atMedium {
->>>>>>> testimonials
       background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
       background-size: cover;
     }

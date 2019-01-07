@@ -64,22 +64,6 @@
     }
 
   }
-<<<<<<< HEAD
-=======
-  
-  /* Begin Equal Height Rules */
-  &--equal-height-at-medium {
-    @mixin atMedium {
-      display: flex;
-    }
-
-    & > div {
-      float: none;
-      display: flex;
-    }
-
-  }
->>>>>>> testimonials
 
   @mixin atLarge {
 
@@ -110,7 +94,8 @@
       width: 63%;
     }
 
-  }  
+  }
+  
   /* Begin Equal Height Rules */
   &--equal-height-at-medium {
     @mixin atMedium {
@@ -123,7 +108,7 @@
     }
 
   }
-  /* Begin Equal Height Rules */
+
   &--equal-height-at-large {
     @mixin atLarge {
       display: flex;
@@ -135,4 +120,5 @@
     }
 
   }
+
 }
